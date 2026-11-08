@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-allowly",
+      "description": "Connect AI agents to Allowly using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-allowly/SKILL.md": "8643feb7b85e0c0d618e5bd3eb691f33aa92400359af076b1513a0b0fc44e8c5"
+  }
+}
