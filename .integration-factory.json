@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "59ef11891b38cfe5bd7839107ae80ad5e3ff75b0186eaf2d43588de6c347a6f9",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://allowly.ai/docs/api-reference/openapi/allowly-runtime-api.v1.json"
+  ],
+  "id": "allowly-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Allowly MCP setup and connection checker",
+  "description": "Generate Allowly MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "allowly",
+  "appName": "Allowly",
+  "providerDocs": "https://allowly.ai/docs/api-reference/openapi/allowly-runtime-api.v1.json",
+  "providerWebsite": "https://allowly.ai/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://allowly.ai/docs/authentication/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-allowly-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
